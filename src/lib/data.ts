@@ -1,0 +1,205 @@
+export interface Project {
+  title: string
+  slug: string
+  category: string
+  description: string
+  longDescription: string
+  technologies: string[]
+  features: string[]
+  image: string
+  github?: string
+  liveUrl?: string
+}
+
+export const projects: Project[] = [
+  {
+    title: "FarmEase",
+    slug: "farmease",
+    category: "Full-Stack Web Application",
+    description:
+      "A comprehensive agriculture service platform connecting farmers, laborers, and agricultural employees. Features role-based dashboards, crop recommendations, geo-based search, and multilingual support with weather integration and crop prediction models.",
+    longDescription:
+      "FarmEase is a revolutionary agriculture service platform designed to bridge the gap between farmers, laborers, and agricultural employees. The platform provides a centralized hub for agricultural services with intelligent crop recommendations, weather integration, and advanced search capabilities. Built with modern web technologies, it offers real-time weather data integration, crop prediction models using machine learning, and a comprehensive dashboard system for different user roles. The platform supports multiple languages to cater to diverse farming communities and includes features like geo-based search for finding nearby agricultural services, in-app notifications for timely updates, and a robust crop management system.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB Atlas",
+      "Tailwind CSS",
+      "Weather API",
+      "JWT Authentication",
+    ],
+    features: [
+      "Role-based registration for Farmers, Laborers, Employees",
+      "Comprehensive farmer dashboard with analytics and insights",
+      "AI-powered crop and fertilizer recommendation system",
+      "Advanced crop management and tracking (My Crops section)",
+      "Geo-based search for labor and agricultural services",
+      "Real-time in-app notifications and alerts for laborers",
+      "Secure email verification and profile management",
+      "AgroBridge module for seamless work connections",
+      "Weather integration with forecasting capabilities",
+      "Multilingual support for diverse user base",
+      "Mobile-responsive design for field use",
+      "Data analytics and reporting features",
+    ],
+    image: "/farmease.jpg",
+    github: "https://github.com/Ravikumar-2016/FarmEase",
+    liveUrl: "https://farm-ease-seven.vercel.app/",
+  },
+  {
+    title: "SAVIOUR 2.0",
+    slug: "saviour-2-0",
+    category: "Disaster Management System",
+    description:
+      "A cutting-edge disaster management platform designed to enhance emergency response and coordination. Features real-time alerting, resource tracking, and community resilience tools with multi-device support.",
+    longDescription:
+      "SAVIOUR 2.0 is a comprehensive disaster management system that revolutionizes emergency response coordination through advanced technology integration. The platform serves as a critical infrastructure for disaster preparedness, response, and recovery operations. It features real-time communication systems, advanced resource tracking capabilities, and community engagement tools that work together to create a robust emergency response network. The system includes predictive analytics for disaster forecasting, automated alert systems, and integration with government emergency services. Built with scalability in mind, it can handle large-scale disasters while maintaining performance and reliability.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Firebase",
+      "MongoDB",
+      "Tailwind CSS",
+      "Real-time APIs",
+      "Push Notifications",
+      "WebSocket",
+      "PWA",
+    ],
+    features: [
+      "Real-time emergency coordination and alert systems",
+      "Advanced user location tracking and mapping with GPS",
+      "Intelligent nearby shelter and resource finder",
+      "Comprehensive admin dashboard for command centers",
+      "Community communication and check-in system",
+      "Detailed safety instructions and preparedness guidelines",
+      "Multi-device support (Web, iOS, Android) with PWA",
+      "Secure contact and location data management",
+      "Integration with government emergency services",
+      "Predictive analytics for disaster forecasting",
+      "Automated notification systems",
+      "Resource allocation and tracking tools",
+      "Volunteer coordination and management",
+      "Post-disaster recovery planning tools",
+    ],
+    image: "/saviour.jpg",
+    github: "https://github.com/Ravikumar-2016/Saviour2.O",
+    liveUrl: "https://saviour-ten.vercel.app/",
+  },
+  {
+    title: "SAVIOUR Mobile",
+    slug: "saviour-mobile",
+    category: "Mobile Application",
+    description:
+      "Mobile companion application for the SAVIOUR disaster management system, providing on-the-go emergency response capabilities for both Android and iOS platforms with offline functionality.",
+    longDescription:
+      "SAVIOUR Mobile is the essential mobile companion to the SAVIOUR disaster management platform, specifically designed to provide critical emergency response capabilities on mobile devices. Built with Flutter for seamless cross-platform compatibility, the app ensures users can access emergency services even in challenging network conditions through robust offline functionality. The application features advanced GPS integration for precise location tracking, push notification systems for immediate alerts, and offline data synchronization capabilities. It includes emergency contact management, disaster preparedness guides, and seamless integration with the web platform for comprehensive emergency response coverage.",
+    technologies: [
+      "Flutter",
+      "Firebase",
+      "Push Notifications",
+      "Offline Storage",
+      "GPS Integration",
+      "Material UI",
+      "SQLite",
+      "REST APIs",
+    ],
+    features: [
+      "Cross-platform compatibility (Android & iOS)",
+      "Robust offline emergency functionality and data sync",
+      "Real-time location sharing and tracking with GPS",
+      "Advanced push notification system for critical alerts",
+      "Comprehensive emergency contact management",
+      "Offline disaster preparedness guides and resources",
+      "Seamless integration with web platform",
+      "User-friendly Material Design interface",
+      "Offline maps and navigation capabilities",
+      "Emergency SOS features with one-touch activation",
+      "Battery optimization for extended use during emergencies",
+      "Multi-language support for diverse communities",
+      "Voice-guided emergency instructions",
+      "Photo and video documentation for damage assessment",
+    ],
+    image: "/saviour-mobile.jpg",
+    github: "https://github.com/Ravikumar-2016/Saviour",
+  },
+  {
+    title: "SkyNow",
+    slug: "skynow",
+    category: "Weather Application",
+    description:
+      "A minimalist weather web application that provides real-time weather data by entering latitude and longitude coordinates using OpenWeatherMap API.",
+    longDescription:
+      "SkyNow is a clean and minimalist weather application that delivers comprehensive weather information based on precise geographical coordinates. The application focuses on providing essential weather data through an intuitive and user-friendly interface, making it perfect for users who need quick and accurate weather information. Built with vanilla JavaScript and modern web technologies, SkyNow offers real-time weather updates, detailed atmospheric conditions, and astronomical information. The application features a responsive design that works seamlessly across all devices and includes advanced weather metrics that are essential for outdoor activities, agriculture, and daily planning.",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "OpenWeatherMap API",
+      "Responsive Design",
+      "Local Storage",
+      "Geolocation API",
+    ],
+    features: [
+      "Precise weather search by Latitude & Longitude coordinates",
+      "Real-time temperature and comprehensive weather conditions",
+      "Detailed humidity levels and atmospheric pressure readings",
+      "Wind speed and direction display (in km/h and degrees)",
+      "UV Index monitoring for sun safety",
+      "Visibility information for travel planning",
+      "Accurate sunrise and sunset timings",
+      "Responsive and lightweight user interface",
+      "Clean, minimalist design approach",
+      "Geolocation integration for current location weather",
+      "Weather history and trends tracking",
+      "Favorite locations management",
+      "Weather alerts and warnings",
+      "Offline caching for recent searches",
+    ],
+    image: "/skynow.jpg",
+    github: "https://github.com/Ravikumar-2016/SkyNow",
+    liveUrl: "https://sky-now-three.vercel.app/",
+  },
+  {
+    title: "Soil Sense",
+    slug: "soil-sense",
+    category: "Agriculture Technology",
+    description:
+      "An intelligent crop and fertilizer recommendation system that analyzes soil parameters and environmental conditions to recommend the most suitable crops and fertilizers based on scientific data and farming best practices.",
+    longDescription:
+      "Soil Sense is an advanced agricultural recommendation system that leverages data science and machine learning to provide farmers with scientifically-backed crop and fertilizer recommendations. The system analyzes multiple environmental and soil parameters to optimize farming decisions, helping farmers increase yield while maintaining soil health. Built with modern web technologies and integrated with agricultural databases, Soil Sense provides personalized recommendations based on local conditions, soil composition, and climate patterns. The platform includes features for soil health monitoring, crop rotation planning, and sustainable farming practices, making it an essential tool for modern agriculture.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Tailwind CSS",
+      "Data Analysis",
+      "Machine Learning",
+      "Chart.js",
+      "MongoDB",
+    ],
+    features: [
+      "Comprehensive environmental parameter analysis (Temperature, Humidity, Rainfall)",
+      "Advanced soil condition assessment (pH Level, Carbon Content, Soil Type)",
+      "Detailed nutrient analysis (Nitrogen, Phosphorous, Potassium levels)",
+      "AI-powered intelligent crop recommendation engine",
+      "Scientific fertilizer type and quantity suggestions",
+      "User-friendly input interface with real-time validation",
+      "Scientific data-based recommendations with research backing",
+      "Fully responsive design optimized for all devices",
+      "Soil health monitoring and tracking over time",
+      "Crop rotation planning and suggestions",
+      "Seasonal farming calendar integration",
+      "Cost-benefit analysis for recommended crops",
+      "Integration with local weather data",
+      "Sustainable farming practice recommendations",
+      "Historical data analysis and trends",
+      "Export reports and recommendations in PDF format",
+    ],
+    image: "/soilsense.jpg",
+    github: "https://github.com/Ravikumar-2016/SoilSense",
+    liveUrl: "https://soil-sense-phi.vercel.app",
+  },
+]
