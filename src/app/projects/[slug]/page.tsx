@@ -6,9 +6,13 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { projects } from "@/lib/data"
+
 interface ProjectPageProps {
   params: {
     slug: string
+  }
+  searchParams?: { // Add this
+    [key: string]: string | string[] | undefined
   }
 }
 
