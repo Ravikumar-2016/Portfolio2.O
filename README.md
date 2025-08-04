@@ -26,7 +26,7 @@ A modern, responsive portfolio website built with Next.js 15, TypeScript, and Ta
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/your-username/ravikumar-portfolio.git
+   git clone https://github.com/Ravikumar-2016/Portfolio2.O
    cd ravikumar-portfolio
    \`\`\`
 
