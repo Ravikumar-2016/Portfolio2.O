@@ -1,36 +1,210 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ravikumar Gunti - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 15, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
+- **Modern Design**: Clean, professional design with gradient backgrounds
+- **Responsive**: Mobile-first approach, works on all devices
+- **Dark/Light Theme**: Toggle between themes with next-themes
+- **Dynamic Routing**: Individual pages for each project
+- **SEO Optimized**: Proper metadata and structure
+- **Performance**: Optimized for speed and accessibility
+- **Animations**: Smooth transitions with Framer Motion
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI (shadcn/ui)
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Theme**: next-themes
+
+## 📦 Installation
+
+1. **Clone the repository**
+   \`\`\`bash
+   git clone https://github.com/your-username/ravikumar-portfolio.git
+   cd ravikumar-portfolio
+   \`\`\`
+
+2. **Install dependencies**
+   \`\`\`bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   \`\`\`
+
+3. **Run the development server**
+   \`\`\`bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   \`\`\`
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🏗️ Build for Production
+
+\`\`\`bash
+npm run build
 # or
-yarn dev
+yarn build
 # or
-pnpm dev
-# or
-bun dev
-```
+pnpm build
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+\`\`\`
+ravikumar-portfolio/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── projects/
+│       ├── page.tsx
+│       └── [slug]/
+│           └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── badge.tsx
+│   │   └── ...
+│   ├── about.tsx
+│   ├── contact.tsx
+│   ├── education.tsx
+│   ├── footer.tsx
+│   ├── header.tsx
+│   ├── hero.tsx
+│   ├── project-card.tsx
+│   ├── projects.tsx
+│   ├── skills.tsx
+│   ├── theme-provider.tsx
+│   └── theme-toggle.tsx
+├── lib/
+│   ├── data.ts
+│   └── utils.ts
+├── hooks/
+│   ├── use-mobile.ts
+│   └── use-toast.ts
+├── next.config.mjs
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+\`\`\`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Customization
 
-## Learn More
+### Adding New Projects
 
-To learn more about Next.js, take a look at the following resources:
+1. Open `lib/data.ts`
+2. Add a new project object to the `projects` array:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+\`\`\`typescript
+{
+  title: 'Your Project Name',
+  slug: 'your-project-slug',
+  category: 'Project Category',
+  description: 'Brief description of your project',
+  longDescription: 'Detailed description (optional)',
+  technologies: ['Tech1', 'Tech2', 'Tech3'],
+  features: [
+    'Feature 1',
+    'Feature 2',
+    'Feature 3'
+  ],
+  github: 'https://github.com/your-username/repo',
+  liveUrl: 'https://your-project-url.com'
+}
+\`\`\`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Updating Personal Information
 
-## Deploy on Vercel
+1. Edit the contact information in `components/contact.tsx`
+2. Update social links in `components/hero.tsx` and `components/footer.tsx`
+3. Modify the about section in `components/about.tsx`
+4. Update skills in `components/skills.tsx`
+5. Edit education details in `components/education.tsx`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Changing Colors and Themes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Modify the color scheme in `tailwind.config.js`
+2. Update CSS variables in `app/globals.css`
+3. Customize gradient colors throughout the components
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with one click
+
+### Deploy to Netlify
+
+1. Build the project: `npm run build`
+2. Upload the `out` folder to Netlify
+3. Configure custom domain (optional)
+
+### Deploy to GitHub Pages
+
+1. Update `next.config.mjs` with your repository name
+2. Build and export: `npm run build`
+3. Deploy the `out` folder to GitHub Pages
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and optimized for:
+- Mobile devices (320px+)
+- Tablets (768px+)
+- Desktop (1024px+)
+- Large screens (1440px+)
+
+## ♿ Accessibility
+
+- Semantic HTML structure
+- ARIA labels and roles
+- Keyboard navigation support
+- Screen reader friendly
+- High contrast support
+- Focus indicators
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📞 Support
+
+If you have any questions or need help with setup, feel free to reach out:
+
+- Email: ravikumargunti837@gmail.com
+- GitHub: [@Ravikumar-2016](https://github.com/Ravikumar-2016)
+- LinkedIn: [Ravikumar Gunti](https://www.linkedin.com/in/ravikumar-gunti-8b360a2a8/)
+
+---
+
+**Built with ❤️ by Ravikumar Gunti**
