@@ -46,7 +46,7 @@ export const projects: Project[] = [
     ],
     image: "/farmease.jpg",
     github: "https://github.com/Ravikumar-2016/FarmEase",
-    liveUrl: "https://farm-ease-seven.vercel.app/",
+    liveUrl: "https://farm-ease-umber.vercel.app/",
   },
   {
     title: "SAVIOUR 2.0",
