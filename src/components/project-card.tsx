@@ -1,18 +1,19 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github, Eye } from "lucide-react"
+import { ExternalLink, Github, Eye, Star } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import type { Project } from "@/lib/data"
 
 interface ProjectCardProps {
   project: Project
+  featured?: boolean
 }
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({ project, featured = false }: ProjectCardProps) {
   return (
-    <Card className="h-full hover:shadow-lg transition-all duration-300 hover:scale-[1.02] flex flex-col">
+    <Card className={`h-full hover:shadow-lg transition-all duration-300 hover:scale-[1.02] flex flex-col ${featured ? 'ring-2 ring-yellow-400/50 dark:ring-yellow-500/30' : ''}`}>
       <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
         <Image
           src={project.image || "/placeholder.svg"}
@@ -21,7 +22,13 @@ export function ProjectCard({ project }: ProjectCardProps) {
           className="object-cover transition-transform duration-300 hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute top-4 right-4">
+        <div className="absolute top-4 right-4 flex gap-2">
+          {featured && (
+            <Badge className="bg-yellow-500/90 text-white">
+              <Star className="h-3 w-3 mr-1 fill-white" />
+              Featured
+            </Badge>
+          )}
           <Badge variant="secondary" className="bg-white/90 text-gray-800">
             {project.category}
           </Badge>

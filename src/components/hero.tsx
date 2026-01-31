@@ -66,15 +66,12 @@ export function Hero() {
             <Button
               size="lg"
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
-              onClick={() => {
-                const link = document.createElement("a")
-                link.href = "/resume.pdf"
-                link.download = "Ravikumar_Gunti_Resume.pdf"
-                link.click()
-              }}
+              asChild
             >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
+              <a href="/Gunti Ravikumar.pdf" download="Ravikumar_Gunti_Resume.pdf">
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </a>
             </Button>
             <Link href="#contact">
               <Button size="lg" variant="outline">

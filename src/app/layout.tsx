@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ravikumar-portfolio.vercel.app",
+    url: "https://portfolio-sigma-roan-70.vercel.app/",
     title: "Ravikumar Gunti - Computer Science Student & Developer",
     description:
       "B.Tech Computer Science student at IIITDM Jabalpur. Passionate about software development and building scalable solutions.",

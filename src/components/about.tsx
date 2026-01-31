@@ -9,22 +9,22 @@ export function About() {
     {
       icon: Code,
       title: "Full-Stack Development",
-      description: "Experienced in React, Node.js, and modern web technologies",
+      description: "Building scalable applications with React, Next.js, Node.js, and modern databases",
     },
     {
       icon: Lightbulb,
-      title: "Innovation Focus",
-      description: "Building solutions for agriculture and disaster management",
+      title: "AI/ML Integration",
+      description: "Implementing AI-powered features for agriculture, productivity, and safety solutions",
     },
     {
       icon: Users,
-      title: "Team Collaboration",
-      description: "Active participant in hackathons and collaborative projects",
+      title: "Real-World Impact",
+      description: "Creating solutions for disaster management, agriculture, and team productivity",
     },
     {
       icon: Zap,
-      title: "Continuous Learning",
-      description: "Always exploring new technologies and industry trends",
+      title: "Continuous Innovation",
+      description: "Always exploring new technologies and industry trends in cloud and AI",
     },
   ]
 
@@ -46,21 +46,21 @@ export function About() {
             <div>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
                 I am a passionate computer science student with a drive for innovation and continuous learning.
-                Currently pursuing B.Tech in Computer Science and Engineering at IIITDM Jabalpur, I am passionate about
-                software development and constantly exploring new technologies to build scalable and impactful
-                solutions.
+                Currently pursuing B.Tech in Computer Science and Engineering at IIITDM Jabalpur, I am focused on
+                building scalable, impactful solutions that solve real-world problems.
               </p>
 
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                My technical expertise spans across multiple programming languages including Python, Java, C, C++, and
-                JavaScript. I have hands-on experience with modern web frameworks like React, Node.js, and Express,
-                along with database technologies such as MySQL and MongoDB.
+                My flagship projects include <strong>SAVIOUR 2.0</strong> (disaster management platform), 
+                <strong> FarmEase</strong> (AI-powered agriculture intelligence), and <strong>MeetTask AI</strong> 
+                (meeting transcription and task management). These projects showcase my expertise in full-stack 
+                development, AI integration, and user-centric design.
               </p>
 
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                I believe in learning by doing, which is why I actively participate in hackathons and collaborative
-                projects. My growing interests in cloud computing and AI-driven applications drive me to stay updated
-                with the latest industry trends.
+                My technical expertise spans Python, Java, JavaScript, TypeScript, React, Next.js, Node.js, 
+                Firebase, MongoDB, and various AI/ML technologies. I actively participate in hackathons and 
+                collaborative projects, constantly exploring cloud computing and AI-driven applications.
               </p>
             </div>
 

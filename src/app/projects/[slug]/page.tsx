@@ -17,7 +17,8 @@ interface ProjectPageProps {
 }
 
 export async function generateStaticParams() {
-  return projects.map((project) => ({
+  const featuredProjects = projects.filter((p) => p.featured)
+  return featuredProjects.map((project) => ({
     slug: project.slug,
   }))
 }

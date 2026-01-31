@@ -17,13 +17,13 @@ export function Contact() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 93xxxxxx41",
-      href: "tel:+919xxxxxxx41",
+      value: "Available on request",
+      href: null,
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Jabalpur, Madhya Pradesh, India",
+      value: "Hyderabad, Telangana, India",
       href: null,
     },
   ]
