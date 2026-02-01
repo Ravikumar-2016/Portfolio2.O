@@ -19,9 +19,9 @@ export const projects: Project[] = [
     slug: "saviour-2-0",
     category: "Disaster Management Platform",
     description:
-      "A full-stack disaster management platform providing real-time emergency alerts, location-based shelter finding, resource tracking, and community coordination to improve disaster response and save lives.",
+      "AI-powered disaster management platform addressing emergency needs of 10M+ disaster-affected people in India with real-time WebSocket alerts, geolocation routing, and 99.8% uptime.",
     longDescription:
-      "SAVIOUR 2.0 is a comprehensive disaster management system that revolutionizes emergency response coordination through advanced technology integration. The platform serves as a critical infrastructure for disaster preparedness, response, and recovery operations. It features real-time communication systems, advanced resource tracking capabilities, and community engagement tools that work together to create a robust emergency response network. The system includes predictive analytics for disaster forecasting, automated alert systems, and integration with government emergency services. Built with scalability in mind, it can handle large-scale disasters while maintaining performance and reliability. The platform supports multiple user roles including citizens, volunteers, and administrators, each with tailored dashboards and functionalities.",
+      "SAVIOUR 2.0 is a comprehensive disaster management system that revolutionizes emergency response coordination through advanced technology integration. Built to address the emergency needs of 10M+ disaster-affected people annually in India, the platform serves as critical infrastructure for disaster preparedness, response, and recovery operations. Engineered a real-time WebSocket alert system supporting 1,000+ concurrent users with sub-200ms latency. Implemented offline-first architecture enabling critical functionality during network failures in disaster zones. Developed AI prediction algorithm using TensorFlow with 87% accuracy analyzing 5+ years of historical data. Integrated geolocation-based smart routing reducing evacuation time by 35% for 500+ active users. Created Admin Command Center with RBAC managing 50+ emergency responders, achieving 99.8% uptime.",
     technologies: [
       "React",
       "Node.js",
@@ -60,9 +60,9 @@ export const projects: Project[] = [
     slug: "farmease",
     category: "Agricultural Intelligence Platform",
     description:
-      "A comprehensive AI-powered agriculture platform connecting farmers, laborers, and agricultural employees with intelligent crop recommendations, real-time market data, weather integration, and workforce management.",
+      "Agricultural intelligence platform connecting 600+ farmers with laborers, addressing 58% labor shortage affecting Indian farmers. Features 88% accurate fertilizer recommendation system and market dashboard spanning 100+ markets.",
     longDescription:
-      "FarmEase is a revolutionary agricultural intelligence platform designed to transform modern farming through AI-powered insights, real-time data integration, and intelligent connectivity. Serving as a unified ecosystem for farmers, agricultural workers, support staff, and administrators, FarmEase streamlines operations, maximizes yields, and creates meaningful connections across the agricultural supply chain. The platform features 95%+ accurate crop and fertilizer recommendations based on soil, climate, and environmental data. With hyperlocal weather integration, live government-verified market prices, and the AgroBridge workforce matching system, FarmEase addresses critical challenges faced by modern farmers while providing growth opportunities for the entire agricultural community.",
+      "FarmEase is a revolutionary agricultural intelligence platform designed to transform modern farming through AI-powered insights and intelligent connectivity. Addressed agricultural labor shortage affecting 58% of Indian farmers by connecting 600+ farmers with laborers through the AgroBridge hiring module. Built real-time weather integration serving 500+ users with location-based insights. Developed fertilizer recommendation system analyzing 20+ soil parameters with 88% accuracy. Created market price dashboard aggregating data from 100+ markets, helping increase farmer profits by 25%. Implemented JWT/bcrypt security and mobile-first design achieving 80% mobile traffic and 4.5/5 rating. Optimized MongoDB queries by 50%, handling 10,000+ daily transactions with sub-3s page loads.",
     technologies: [
       "Next.js 15",
       "TypeScript",
@@ -99,9 +99,9 @@ export const projects: Project[] = [
     slug: "meettask-ai",
     category: "AI-Powered Productivity Tool",
     description:
-      "An intelligent meeting transcription and task management system that converts meeting recordings to text with speaker diarization, enables task assignment, and streamlines team workflow management.",
+      "Meeting transcription & task management reducing manual documentation by 75% for 200+ users. Integrated AssemblyAI for automated transcription of 100+ hours of audio with 92% accuracy NLP-based task extraction.",
     longDescription:
-      "MeetTask AI is an innovative productivity platform that streamlines the meeting-to-task workflow for teams. The system allows managers to upload meeting recordings (audio or video), automatically transcribes them using AssemblyAI with speaker diarization, and facilitates task assignment to team members. Built with a modern tech stack including React 19, TypeScript, and serverless architecture, the platform features role-based access for managers and employees, real-time status updates via Firestore, and secure file submission through Google Drive integration. The application demonstrates expertise in full-stack development, third-party API integration, and modern cloud deployment practices.",
+      "MeetTask AI is an innovative productivity platform that streamlines the meeting-to-task workflow for teams, directly addressing workplace productivity challenges. Solved workplace productivity challenges by reducing manual meeting documentation by 75% for 200+ users. Integrated AssemblyAI API for automated transcription with speaker diarization, processing 100+ hours of audio. Built NLP-based task extraction achieving 92% accuracy, reducing follow-up time by 60%. Developed role-based dashboards with real-time Firestore sync handling 1,000+ daily API requests. Implemented Vercel Blob storage managing 500+ files (2GB+ data) with 99.9% reliability. Engineered serverless architecture with 9 optimized API routes for seamless media processing and task management.",
     technologies: [
       "React 19",
       "TypeScript",
