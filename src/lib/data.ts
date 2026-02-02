@@ -15,13 +15,13 @@ export interface Project {
 export const projects: Project[] = [
   // ============ FEATURED PROJECTS ============
   {
-    title: "SAVIOUR 2.0",
-    slug: "saviour-2-0",
+    title: "SAVIOUR",
+    slug: "saviour",
     category: "Disaster Management Platform",
     description:
       "AI-powered disaster management platform addressing emergency needs of 10M+ disaster-affected people in India with real-time WebSocket alerts, geolocation routing, and 99.8% uptime.",
     longDescription:
-      "SAVIOUR 2.0 is a comprehensive disaster management system that revolutionizes emergency response coordination through advanced technology integration. Built to address the emergency needs of 10M+ disaster-affected people annually in India, the platform serves as critical infrastructure for disaster preparedness, response, and recovery operations. Engineered a real-time WebSocket alert system supporting 1,000+ concurrent users with sub-200ms latency. Implemented offline-first architecture enabling critical functionality during network failures in disaster zones. Developed AI prediction algorithm using TensorFlow with 87% accuracy analyzing 5+ years of historical data. Integrated geolocation-based smart routing reducing evacuation time by 35% for 500+ active users. Created Admin Command Center with RBAC managing 50+ emergency responders, achieving 99.8% uptime.",
+      "SAVIOUR  is a comprehensive disaster management system that revolutionizes emergency response coordination through advanced technology integration. Built to address the emergency needs of 10M+ disaster-affected people annually in India, the platform serves as critical infrastructure for disaster preparedness, response, and recovery operations. Engineered a real-time WebSocket alert system supporting 1,000+ concurrent users with sub-200ms latency. Implemented offline-first architecture enabling critical functionality during network failures in disaster zones. Developed AI prediction algorithm using TensorFlow with 87% accuracy analyzing 5+ years of historical data. Integrated geolocation-based smart routing reducing evacuation time by 35% for 500+ active users. Created Admin Command Center with RBAC managing 50+ emergency responders, achieving 99.8% uptime.",
     technologies: [
       "React",
       "Node.js",
@@ -51,8 +51,8 @@ export const projects: Project[] = [
       "Post-disaster recovery planning and reporting tools",
     ],
     image: "/saviour.jpg",
-    github: "https://github.com/Ravikumar-2016/Saviour-2.O",
-    liveUrl: "https://saviour-ten.vercel.app/",
+    github: "https://github.com/Ravikumar-2016/SaviourWeb",
+    liveUrl: "https://saviour-web.vercel.app",
     featured: true,
   },
   {
