@@ -51,7 +51,7 @@ export function About() {
               </p>
 
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                My flagship projects include <strong>SAVIOUR 2.0</strong> (disaster management platform), 
+                My flagship projects include <strong>SAVIOUR</strong> (disaster management platform for community resilience), 
                 <strong> FarmEase</strong> (AI-powered agriculture intelligence), and <strong>MeetTask AI</strong> 
                 (meeting transcription and task management). These projects showcase my expertise in full-stack 
                 development, AI integration, and user-centric design.
