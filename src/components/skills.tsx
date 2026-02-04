@@ -8,27 +8,27 @@ export function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "Java", "C", "C++", "JavaScript", "PHP", "TypeScript"],
+      skills: ["JavaScript", "TypeScript", "Python", "Java", "C/C++", "HTML5", "CSS3", "SQL"],
     },
     {
       title: "Frontend Technologies",
-      skills: ["React", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design"],
+      skills: ["React 19", "Next.js 15/16", "Tailwind CSS", "Framer Motion", "shadcn/ui", "Radix UI", "Responsive Design"],
     },
     {
       title: "Backend Technologies",
-      skills: ["Node.js", "Express.js", "RESTful APIs", "Server-side Development"],
+      skills: ["Node.js", "Express.js", "REST APIs", "WebSocket", "JWT Authentication", "Vercel Serverless"],
     },
     {
-      title: "Databases",
-      skills: ["MySQL", "MongoDB", "Database Design", "Query Optimization"],
+      title: "Databases & Storage",
+      skills: ["MongoDB Atlas", "Firebase Firestore", "MySQL", "Redis", "Cloudinary"],
     },
     {
-      title: "Tools & Technologies",
-      skills: ["Git", "GitHub", "VS Code", "Linux", "Command Line"],
+      title: "AI/ML & APIs",
+      skills: ["TensorFlow", "AssemblyAI", "PlantNet API", "WeatherAPI", "OpenWeatherMap", "Google Maps API"],
     },
     {
-      title: "Soft Skills",
-      skills: ["Problem Solving", "Team Collaboration", "Adaptability", "Continuous Learning"],
+      title: "DevOps & Tools",
+      skills: ["Git", "GitHub", "Docker", "Vercel", "AWS", "Postman", "ESLint"],
     },
   ]
 

@@ -45,22 +45,22 @@ export function About() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                I am a passionate computer science student with a drive for innovation and continuous learning.
-                Currently pursuing B.Tech in Computer Science and Engineering at IIITDM Jabalpur, I am focused on
+                I am a passionate Full Stack Developer and AI/ML enthusiast with a drive for innovation and continuous learning.
+                Currently pursuing B.Tech in Computer Science and Engineering at IIITDM Jabalpur with 8.3 CGPA, I am focused on
                 building scalable, impactful solutions that solve real-world problems.
               </p>
 
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                My flagship projects include <strong>SAVIOUR</strong> (disaster management platform for community resilience), 
-                <strong> FarmEase</strong> (AI-powered agriculture intelligence), and <strong>MeetTask AI</strong> 
-                (meeting transcription and task management). These projects showcase my expertise in full-stack 
-                development, AI integration, and user-centric design.
+                My flagship projects include <strong>SAVIOUR</strong> (AI-powered disaster management with WebSocket alerts and TensorFlow predictions), 
+                <strong> FarmEase</strong> (agricultural intelligence platform with PlantNet disease detection and 95%+ accuracy crop recommendations), and <strong>MeetTask AI</strong> 
+                (meeting transcription with AssemblyAI speaker diarization). These projects demonstrate my expertise in full-stack 
+                development, AI/ML integration, and building production-ready applications.
               </p>
 
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                My technical expertise spans Python, Java, JavaScript, TypeScript, React, Next.js, Node.js, 
-                Firebase, MongoDB, and various AI/ML technologies. I actively participate in hackathons and 
-                collaborative projects, constantly exploring cloud computing and AI-driven applications.
+                My technical expertise spans React 19, Next.js 15/16, TypeScript, Node.js, Firebase, MongoDB Atlas, 
+                and various AI/ML technologies including TensorFlow and AssemblyAI. I actively work on projects that 
+                integrate multiple APIs and deliver real-world impact through technology.
               </p>
             </div>
 

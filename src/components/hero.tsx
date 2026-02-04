@@ -25,15 +25,15 @@ export function Hero() {
             </h1>
 
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
-              Computer Science & Engineering Student
+              Full Stack Developer | AI/ML Engineer
             </h2>
 
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-2">
-              B.Tech at IIITDM Jabalpur (2023-2027)
+              B.Tech CSE at IIITDM Jabalpur
             </p>
 
             <p className="text-base md:text-lg text-gray-500 dark:text-gray-500 mb-8">
-              Passionate about software development and building scalable solutions
+              Building scalable applications with real-world impact | 3 Production Apps 
             </p>
           </motion.div>
 
