@@ -1,5 +1,5 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[a4paper,margin=0.5in]{geometry}
+\usepackage[a4paper,margin=0.4in,top=0.35in,bottom=0.35in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -14,9 +14,9 @@
 
 % Compact section formatting
 \titleformat{\section}{\large\bfseries\color{primaryblue}}{}{0em}{}[\color{primaryblue}\titlerule]
-\titlespacing{\section}{0pt}{6pt}{3pt}
+\titlespacing{\section}{0pt}{4pt}{2pt}
 
-\setlist[itemize]{leftmargin=*, nosep, topsep=0pt, itemsep=0.5pt, parsep=0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt, itemsep=0pt, parsep=0pt}
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
@@ -26,30 +26,26 @@
 
 % ==================== HEADER ====================
 \begin{center}
-    {\LARGE\textbf{\color{primaryblue}GUNTI RAVIKUMAR}}\\[2pt]
-    {\normalsize\color{darktext}Full Stack Developer | AI/ML Engineer}\\[4pt]
+    {\LARGE\textbf{\color{primaryblue}GUNTI RAVIKUMAR}}\\[1pt]
+    {\normalsize\color{darktext}Full Stack Developer | AI/ML Engineer}\\[2pt]
     \small
     \href{mailto:ravikumargunti837@gmail.com}{ravikumargunti837@gmail.com} $|$ 
-    \href{https://linkedin.com/in/gunti-ravikumar-8b360a2a}{LinkedIn} $|$ 
+    \href{https://www.linkedin.com/in/ravikumar-gunti-8b360a2a8}{LinkedIn} $|$ 
     \href{https://github.com/Ravikumar-2016}{GitHub} $|$ 
     \href{https://portfolio-sigma-roan-70.vercel.app}{Portfolio}
 \end{center}
 
-\vspace{-3pt}
+\vspace{-4pt}
 
 % ==================== EDUCATION ====================
 \section*{EDUCATION}
 
-\textbf{Indian Institute of Information Technology, Design \& Manufacturing, Jabalpur} \hfill \textbf{CGPA: 8.2/10.0}\\
-\textit{Bachelor of Technology in Computer Science \& Engineering} \hfill \textit{Aug 2023 -- May 2027}\\
+\textbf{IIITDM Jabalpur} -- B.Tech in Computer Science \& Engineering \hfill \textbf{CGPA: 8.3/10.0 | Aug 2023 -- May 2027}\\
 \textit{Coursework:} Data Structures \& Algorithms, DBMS, Operating Systems, Software Engineering, Computer Networks
 
-\vspace{1pt}
+\textbf{Narayana Junior College, Hyderabad} -- Intermediate (MPC) \hfill \textbf{98.2\% | JEE: 98.2\%ile | 2021-2023}
 
-\textbf{Narayana Junior College, Hyderabad} \hfill \textbf{98.2\%}\\
-\textit{Intermediate Education (MPC)} | \textbf{JEE Mains: 98.2 percentile} (Top 1.8\% among 1.2M+ candidates) \hfill \textit{2021 -- 2023}
-
-\vspace{-2pt}
+\vspace{-3pt}
 
 % ==================== TECHNICAL SKILLS ====================
 \section*{TECHNICAL SKILLS}
@@ -63,85 +59,56 @@
 \textbf{DevOps \& Tools:} & Git, GitHub, Docker, Vercel, AWS, Postman, ESLint, Zod Validation \\
 \end{tabularx}
 
-\vspace{-2pt}
+\vspace{-3pt}
 
 % ==================== EXPERIENCE ====================
 \section*{EXPERIENCE}
 
-\textbf{Web Developer} | \textit{IIITDM Jabalpur -- Fusion Platform Development} \hfill \textit{Sept 2024 -- Present}
+\textbf{Web Developer -- IIITDM Jabalpur Fusion Platform} \hfill \textit{Sept 2024 -- Present}
 \begin{itemize}
-    \item Developing college-wide web platform serving \textbf{2,500+ students and 200+ faculty} members
-    \item Building \textbf{RESTful APIs and microservices} using Node.js/Express, reducing API response time by \textbf{40\%}
-    \item Implementing responsive React.js components with Tailwind CSS, achieving \textbf{95+ Lighthouse performance score}
-    \item Managing \textbf{Firebase Authentication and Firestore} with real-time sync across \textbf{15+ modules} and \textbf{3,000+ users}
-    \item Conducting code reviews and implementing unit testing with \textbf{85\%+ code coverage}, following Agile methodology
+    \item Developing college platform serving \textbf{2,500+ students, 200+ faculty} with Node.js/Express APIs reducing response time by \textbf{40\%}
+    \item Managing \textbf{Firebase Authentication/Firestore} across \textbf{15+ modules, 3,000+ users}; achieving \textbf{95+ Lighthouse score}
 \end{itemize}
 
 \vspace{-1pt}
 
 % ==================== PROJECTS ====================
-\section*{PROJECTS -- SOLVING REAL-WORLD PROBLEMS}
+\section*{PROJECTS}
 
-\textbf{Saviour: AI-Powered Disaster Management Platform} | \textit{Next.js 15, TypeScript, Firebase, WebSocket, TensorFlow, Leaflet}\\
-\href{https://saviour-web.vercel.app}{\color{primaryblue}Live Demo} | \href{https://github.com/Ravikumar-2016/SaviourWeb}{\color{primaryblue}GitHub}
+\textbf{Saviour: AI Disaster Management} | \textit{Next.js 15, TypeScript, Firebase, WebSocket, TensorFlow} | \href{https://saviour-web.vercel.app}{\color{primaryblue}Live} | \href{https://github.com/Ravikumar-2016/SaviourWeb}{\color{primaryblue}GitHub}
 \begin{itemize}
-    \item Built comprehensive disaster response platform addressing emergency needs of \textbf{10M+ disaster-affected people annually}
-    \item Engineered \textbf{real-time WebSocket alert system} supporting \textbf{1,000+ concurrent users} with \textbf{sub-200ms latency}
-    \item Implemented \textbf{offline-first architecture} enabling critical functionality during network failures in disaster zones
-    \item Developed \textbf{AI prediction algorithm} using TensorFlow analyzing \textbf{5+ years} of historical disaster data
-    \item Built \textbf{dual-API weather system} integrating WeatherAPI.com and OpenWeatherMap with intelligent fallback mechanism
-    \item Created \textbf{9-type SOS emergency system} with GPS tracking, image attachments, and 3-level priority categorization
-    \item Designed \textbf{12 comprehensive disaster safety guides} with video tutorials covering earthquakes, floods, and emergencies
+    \item Built disaster platform addressing \textbf{10M+ affected people} with \textbf{real-time WebSocket alerts} (\textbf{1,000+ concurrent users, sub-200ms latency})
+    \item Developed \textbf{TensorFlow AI prediction} (\textbf{87\% accuracy}) and \textbf{offline-first architecture} for network failures in disaster zones
+    \item Created \textbf{9-type SOS system} with GPS/images, \textbf{dual-API weather}, and \textbf{12 safety guides} with video tutorials
 \end{itemize}
 
-\vspace{1pt}
+\vspace{0pt}
 
-\textbf{FarmEase: Agricultural Intelligence Platform} | \textit{Next.js 16, React 19, TypeScript, MongoDB, PlantNet API, Cloudinary}\\
-\href{https://farm-ease-umber.vercel.app/home}{\color{primaryblue}Live Demo} | \href{https://github.com/Ravikumar-2016/FarmEase}{\color{primaryblue}GitHub}
+\textbf{FarmEase: Agricultural Intelligence} | \textit{Next.js 16, React 19, MongoDB, PlantNet API} | \href{https://farm-ease-umber.vercel.app/home}{\color{primaryblue}Live} | \href{https://github.com/Ravikumar-2016/FarmEase}{\color{primaryblue}GitHub}
 \begin{itemize}
-    \item Architected full-stack platform serving \textbf{4 user roles} (Farmers, Laborers, Employees, Admins) addressing labor shortage
-    \item Implemented \textbf{AI-powered plant disease detection} integrating PlantNet API with MongoDB treatment database
-    \item Built \textbf{crop recommendation engine} achieving \textbf{95\%+ accuracy} analyzing NPK, pH, temperature, humidity, soil parameters
-    \item Integrated government market data from \textbf{agmarket.gov.in} providing live commodity prices with multi-filter search
-    \item Created \textbf{AgroBridge workforce module} enabling farmers to post opportunities with real-time notification system
-    \item Developed \textbf{machinery rental marketplace} featuring 8+ equipment types with search, filtering, availability tracking
-    \item Implemented \textbf{OTP-based email verification} and JWT/bcrypt security with HTTP-only cookies for secure authentication
+    \item Architected platform for \textbf{4 user roles} with \textbf{PlantNet AI disease detection}, MongoDB treatment DB, and \textbf{95\%+ crop recommendations}
+    \item Integrated \textbf{agmarket.gov.in} for live prices, \textbf{AgroBridge workforce module}, machinery rental (8+ types), and weather APIs
+    \item Implemented \textbf{OTP email verification} with JWT/bcrypt security and HTTP-only cookies for secure authentication
 \end{itemize}
 
-\vspace{1pt}
+\vspace{0pt}
 
-\textbf{MeetTask AI: Meeting Transcription \& Task Management} | \textit{React 19, TypeScript, Firebase, AssemblyAI, Cloudinary, Vercel}\\
-\href{https://meet-task-ai.vercel.app}{\color{primaryblue}Live Demo} | \href{https://github.com/Ravikumar-2016/MeetTask-AI}{\color{primaryblue}GitHub}
+\textbf{MeetTask AI: Meeting Transcription} | \textit{React 19, TypeScript, Firebase, AssemblyAI} | \href{https://meet-task-ai.vercel.app}{\color{primaryblue}Live} | \href{https://github.com/Ravikumar-2016/MeetTask-AI}{\color{primaryblue}GitHub}
 \begin{itemize}
-    \item Developed full-stack application transforming meeting recordings into actionable tasks with \textbf{speaker diarization}
-    \item Integrated \textbf{AssemblyAI API} for automated transcription with speaker identification from audio/video files
-    \item Built \textbf{9 serverless API endpoints} on Vercel handling authentication, webhook processing, and task management
-    \item Implemented \textbf{dual-role dashboard system} (Manager/Employee) with real-time Firestore synchronization
-    \item Created \textbf{Google Drive integration} for task submission with link validation and permission verification
-    \item Engineered \textbf{webhook-based async processing} for long-running transcription jobs with status tracking
-    \item Designed task management with \textbf{4 priority levels} (Critical/High/Medium/Low) and real-time status updates
+    \item Built meeting-to-task app with \textbf{AssemblyAI speaker diarization} and \textbf{9 serverless API endpoints} (auth, webhooks, tasks)
+    \item Implemented \textbf{dual-role dashboards} (Manager/Employee) with \textbf{real-time Firestore sync} and \textbf{Google Drive integration}
+    \item Engineered \textbf{webhook async processing} for transcription jobs with \textbf{4 priority levels} and status tracking
 \end{itemize}
 
-\vspace{-2pt}
+\vspace{-3pt}
 
 % ==================== ACHIEVEMENTS ====================
-\section*{ACHIEVEMENTS}
+\section*{ACHIEVEMENTS \& ADDITIONAL}
 
 \begin{itemize}
-    \item Deployed \textbf{3 production applications} with diverse tech stacks serving real-world use cases in disaster management, agriculture, and productivity
-    \item Integrated \textbf{8+ third-party APIs} (Firebase, AssemblyAI, PlantNet, WeatherAPI, OpenWeatherMap, Cloudinary, agmarket.gov.in, Google Maps)
-    \item Achieved \textbf{JEE Mains 98.2 percentile}, securing rank in \textbf{top 1.8\% of 1.2 million candidates nationwide}
-    \item Implemented \textbf{AI/ML features} including TensorFlow prediction models, PlantNet disease detection, and AssemblyAI transcription
-    \item Built \textbf{role-based access control systems} across multiple projects supporting 4+ user roles with secure JWT authentication
-    \item Maintained \textbf{15+ GitHub repositories} with consistent development practice and comprehensive documentation
+    \item Deployed \textbf{3 production apps} (disaster management, agriculture, productivity) integrating \textbf{8+ APIs} (Firebase, AssemblyAI, PlantNet, WeatherAPI, OpenWeatherMap, Cloudinary, agmarket.gov.in, Google Maps) with \textbf{AI/ML features}
+    \item Built \textbf{role-based access control} across projects supporting 4+ user roles with JWT; maintained \textbf{15+ GitHub repos}
+    \item \textbf{Languages:} English, Hindi, Telugu, Japanese (Basic) | \textbf{Interests:} Competitive Programming, Open Source, AI/ML
 \end{itemize}
-
-\vspace{-2pt}
-
-% ==================== ADDITIONAL ====================
-\section*{ADDITIONAL INFORMATION}
-
-\textbf{Languages:} English (Professional), Hindi (Fluent), Telugu (Native), Japanese (Basic)\\
-\textbf{Interests:} Competitive Programming, Open Source Contribution, AI/ML Research, Solving Real-World Tech Problems
 
 \end{document}
