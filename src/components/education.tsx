@@ -11,7 +11,7 @@ export function Education() {
       degree: "B.Tech in Computer Science and Engineering",
       institution: "IIITDM Jabalpur",
       period: "2023 - 2027",
-      status: "CGPA: 8.3/10.0",
+      status: "CGPA: 8.4/10.0",
       description:
         "Pursuing Bachelor's in Technology with focus on software development, algorithms, AI/ML, and emerging technologies. Coursework includes Data Structures & Algorithms, DBMS, Operating Systems, Software Engineering, and Computer Networks.",
       type: "current",
@@ -21,7 +21,7 @@ export function Education() {
       institution: "Narayana Junior College, Hyderabad",
       period: "2021 - 2023",
       status: "98.2%",
-      description: "Completed intermediate education with 98.2%. JEE Mains: 98.2 percentile (Top 1.8% among 1.2M+ candidates nationwide).",
+      description: "Completed intermediate education with 98.2%. JEE Mains: 98.2 percentile.",
       type: "completed",
     },
     {

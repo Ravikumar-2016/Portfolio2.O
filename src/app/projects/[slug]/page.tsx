@@ -17,8 +17,7 @@ interface ProjectPageProps {
 }
 
 export async function generateStaticParams() {
-  const featuredProjects = projects.filter((p) => p.featured)
-  return featuredProjects.map((project) => ({
+  return projects.map((project) => ({
     slug: project.slug,
   }))
 }
@@ -121,6 +120,19 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 </ul>
               </CardContent>
             </Card>
+
+            {project.challengesSolved && (
+              <Card>
+                <CardHeader>
+                  <CardTitle>Challenges Solved</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {project.challengesSolved}
+                  </p>
+                </CardContent>
+              </Card>
+            )}
 
             <Card>
               <CardHeader>

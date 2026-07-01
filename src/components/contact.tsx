@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Mail, Phone, MapPin, Github, Linkedin, Instagram } from "lucide-react"
+import { Mail, Phone, MapPin, Github, Linkedin, Globe } from "lucide-react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 
@@ -42,10 +42,10 @@ export function Contact() {
       color: "hover:text-blue-600",
     },
     {
-      icon: Instagram,
-      label: "Instagram",
-      href: "https://www.instagram.com/ravikumar_gunti__/",
-      color: "hover:text-pink-600",
+      icon: Globe,
+      label: "Portfolio",
+      href: "https://portfolio-sigma-roan-70.vercel.app",
+      color: "hover:text-purple-600",
     },
   ]
 
