@@ -193,8 +193,8 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "Web Developer Intern",
-    organization: "IIITDM Jabalpur – Fusion Platform Development",
+    role: "Fusion ERP Module Developer",
+    organization: "IIITDM Jabalpur",
     period: "August 2025 – MAY 2026",
     location: "Jabalpur, Madhya Pradesh, India",
     points: [
