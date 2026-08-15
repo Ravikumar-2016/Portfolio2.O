@@ -27,6 +27,29 @@ export interface Achievement {
   iconName: string
 }
 
+export interface Certificate {
+  title: string
+  issuer: string
+  date?: string
+  pdfUrl: string
+  iconName: string
+}
+
+export const certificates: Certificate[] = [
+  {
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    pdfUrl: "/aws-cloud-cloud-practitioner-certificate.pdf",
+    iconName: "Cloud"
+  },
+  {
+    title: "NPTEL STAR Certificate",
+    issuer: "NPTEL",
+    pdfUrl: "/NPTEL STAR.pdf",
+    iconName: "Award"
+  }
+]
+
 export const projects: Project[] = [
   {
     title: "SAVIOUR",
